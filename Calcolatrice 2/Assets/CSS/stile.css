@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 4rem; 
+  animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate; 
+}
+@keyframes glow {
+  from {
+   color: #fff;
+ text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+}
+
+to {
+  color: rgb(9, 49, 82);
+ text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+}
+}
+
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#calc input {
+  width: 60px;
+  height: 60px;
+  margin: 1px;
+  font-size: 15px;
+  border: 2px solid rgb(161, 161, 161);
+  font-size: 25px;
+}
+#calc input:hover{
+  background-color:rgb(123, 219, 243);
+}
+#calc input:active{
+  background-color:#aaa;
+}
+#calcolatrice {
+  background-color: #eee;
+  width: fit-content;
+  padding: 10px 5px;
+  box-shadow: 5px 5px 10px 0px black;
+  margin: 10px;
+  border-radius: 15px;
+}
+#area {
+  width: 90%;
+  height: 40px;
+  padding: 2px;
+  text-align: right;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  
+}
+
+#calcolatrice #uguale {
+  height: 128px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+#calcolatrice #operazioni {
+  background-color: #ee7752;
+}
+#calcolatrice #operazioni:hover {
+  background-color: #e79981;
+}
+#calcolatrice #uguale:hover {
+  background-color: rgb(63, 62, 62);
+}
+#calcolatrice #operazioni1 {
+  background-color: #f8b3b3;
+}
+#calcolatrice #operazioni1:hover {
+  background-color: #c46565;
+}
+
+
